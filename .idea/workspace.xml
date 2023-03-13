@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.admin.language.1678678349" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1678678241" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1678674933" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.manufacturer.0.1678677362" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.product.bestseller.3.0.1.12.1678677362" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.product.bestseller.3.0.1.4.1678676758" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.product.latest.3.0.1.4.1678676758" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1678678360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
-      <workItem from="1678649609864" duration="9708000" />
+      <workItem from="1678649609864" duration="9980000" />
     </task>
     <servers />
   </component>
