@@ -1,0 +1,70 @@
+#ishioffersblock {
+	@media (max-width: 991px) {
+		display: none;
+	}
+	.offer-background{
+		padding: 10px 0;
+	}
+	#offer-carousel {
+		display: inline-block;
+		vertical-align: middle;
+		color: $brand-primary;
+		p {
+			color: $light-color;
+			text-align: center;
+			margin: 0 auto;
+			padding: 5px 0;
+			letter-spacing: 0;
+			font-size: 13px;
+			font-weight:400;
+			line-height: 20px;
+		}
+	}
+	.close{
+		font-size: 30px;
+		color: $light-color;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+		opacity: 1;
+		font-weight: 300;
+	}
+	.owl-nav{
+		.owl-prev,.owl-next{
+			position: absolute;
+			top: 0;
+			left: 20%;
+			right: auto;
+			background: transparent;
+			border: 0;
+			margin: 0;
+			width: 30px;
+			height: 30px;
+			@media (max-width: 1199px) {
+				left: 13%;
+			}
+			@media (max-width: 991px) {
+				left: 5%;
+			}
+			@media (max-width: 767px) {
+				position: unset;
+			}
+			i{
+				&:before{
+					color: $light-color;
+					line-height: 27px;
+				}
+			}
+		}
+		.owl-next{
+			left: auto;
+			right: 20%;
+			@media (max-width: 1199px) {
+				right: 13%;
+			}
+			@media (max-width: 991px) {
+				right: 5%;
+			}
+		}
+	}
+}

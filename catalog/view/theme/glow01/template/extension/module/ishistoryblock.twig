@@ -1,0 +1,16 @@
+<section class="ishistoryblock" style="margin-bottom:{{marginbottom}}">
+	<div class="container">
+		<div class="row valign-wrapper">
+			<div class="story-image-{% if image_position == 'text-left' %}left{% else %}right{% endif %} col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="img-container">
+					<img src=" {{bgimage}} " alt="story-img" />
+				</div>
+			</div>
+			<div class="text-wrapper text-wrapper-{% if position == 'text-left' %}left{% else %}right{% endif %} col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	  				<div class="subtitle">{{ subtitle }}</div>
+					<h3 class="home-title">{{ heading }}</h3>
+					{{ html }}
+			</div>
+		</div>
+	</div>
+</section>

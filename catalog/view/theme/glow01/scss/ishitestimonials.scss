@@ -1,0 +1,115 @@
+.ishitestimonials {
+  text-align: center;
+  @media (max-width: 1199px) {
+    padding: 0;
+  }
+  .ishitestimonials-container {
+    padding: 50px 30px 32px;
+    @media (max-width: 1199px) {
+      padding: 40px 15px 40px;
+    }
+    .user-details{
+      margin-bottom: 20px;
+    }
+    .testimonial-img{
+      max-width: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto 20px;
+      img{
+        width:120px;
+        height: 120px;
+      }
+    }
+    .testimonial-info{
+      text-align: center;
+      margin: 0 auto;
+    }
+      .user-description {
+        margin-bottom: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: .5px;
+        color: #787878;
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+        @media (max-width: 543px) {
+          font-size: 14px;
+        }
+      }
+      .user-name{
+        position: relative;
+        display: block;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: 500;
+        margin-bottom: 8px;
+        color:$brand-primary;
+      }
+      .user-designation{
+        font-weight: 400;
+        font-size: 14px;
+        display: block;
+        color: $black-color;
+        line-height: 26px;
+        @media (max-width: 543px) {
+          display: block;
+        }
+      }
+  }
+
+  
+  .owl-dots {
+    display: block;
+    text-align: center;
+    position: unset;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    &.ishi-style-dot2,&.ishi-style-dot3{
+      .owl-dot{
+        border: 0;
+        span{
+          height: 12px;
+          width: 12px;
+          border: 0;
+        }
+      }
+    }
+    &.ishi-style-dot4,&.ishi-style-dot5{
+      .owl-dot{
+        border: 0;
+        span{
+          border: 0;
+        }
+      }
+    }
+  }
+  .owl-carousel {
+    .owl-nav {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      margin-top: 0;
+      .owl-prev,.owl-next{
+        box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+  &:hover {
+    .owl-carousel{
+      .owl-nav {
+        @media (min-width: 544px) {/* If media is above 543 */
+            opacity: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,492 @@
+2021-02-03 16:40:56 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  rename(C:\xampp\htdocs\opencart-3.0.3.7\system\storage\cache\template\8e\8ed56BE.tmp,C:/xampp/htdocs/opencart-3.0.3.7/system/storage/cache/template/8e/8edb4e13672148a4bfb8122120a41208f54697d1edf35b52dbf811fe4899533b.php): Access is denied (code: 5) in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 65
+2021-02-04 11:06:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-06-29 9:59:54 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_e6_14.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 10:01:14 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_ea_a.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 10:20:08 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_ef_a.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 10:20:11 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql26e0_f0_e.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 10:21:09 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql26e0_f2_c.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:21:34 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_121_c.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:31:36 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_12b_c.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:33:00 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_12d_28.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:33:04 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_12e_b.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:33:46 - PHP Warning:  mysqli::query(): (HY000/29): File 'C:\xamp_latest\tmp\#sql26e0_130_11.MAD' not found (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:40:09 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql26e0_13a_b.MAI' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:44:36 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_13f_c.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:44:45 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql26e0_140_c.MAI' is read only in C:\xamp_latest\htdocs\Glamour\system\library\db\mysqli.php on line 19
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:14 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-29 11:57:26 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-29 12:14:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-30 3:58:46 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-30 3:58:47 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-30 3:58:48 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 25
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 29
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 30
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 31
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 32
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 33
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 34
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 35
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 36
+2021-06-30 4:02:18 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\catalog\controller\extension\module\ishislider.php on line 37
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:02:35 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:05:05 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: titlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 134
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 135
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: subtitlecolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 136
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 137
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 138
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: btntext in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 139
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textalignment in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 140
+2021-06-30 4:10:43 - PHP Notice:  Undefined index: textposition in C:\xamp_latest\htdocs\Glamour\admin\controller\extension\module\ishislider.php on line 141
+2021-07-07 4:45:02 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Notice:  Undefined variable: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 208
+2021-07-07 4:45:02 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Notice:  Undefined variable: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 208
+2021-07-07 4:45:02 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 189
+2021-07-07 4:45:02 - PHP Notice:  Undefined variable: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 208
+2021-07-07 7:07:03 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:08:59 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:09:12 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:09:35 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:09:38 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:10:16 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishibannerblock.php on line 35
+2021-07-07 7:10:42 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 181
+2021-07-07 7:10:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 181
+2021-07-07 7:10:42 - PHP Notice:  Undefined variable: subtitle in /var/www/html/user7/OPC022/admin/controller/extension/module/ishibannerblock.php on line 200
+2021-07-07 8:24:29 - PHP Notice:  Undefined index: descriptioncolor in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishislider.php on line 25
+2021-07-07 8:24:29 - PHP Notice:  Undefined index: descriptioncolor in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishislider.php on line 25
+2021-07-07 8:25:52 - PHP Notice:  Undefined variable: rgb_color in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishislider.php on line 34
+2021-07-07 8:25:52 - PHP Notice:  Undefined variable: rgb_color in /var/www/html/user7/OPC022/catalog/controller/extension/module/ishislider.php on line 34
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 137
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 138
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 137
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 138
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 137
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 138
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: description in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 137
+2021-07-22 9:58:30 - PHP Notice:  Undefined index: descriptioncolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishislider.php on line 138
+2021-07-22 10:32:35 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1e44_13f_a.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-22 11:09:52 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql1e44_16e_10.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-22 11:29:20 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishiproductsblock.php on line 171
+2021-07-22 11:30:26 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishistoryblock.php on line 84
+2021-07-22 11:30:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishistoryblock.php on line 92
+2021-07-22 12:15:44 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishiservicesblock.php on line 107
+2021-07-22 13:06:09 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1e44_1f0_8.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 4:54:09 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_4b_b.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 6:10:39 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishifeatureblock.php on line 133
+2021-07-23 6:15:28 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishifeatureblock.php on line 133
+2021-07-23 6:15:31 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishifeatureblock.php on line 133
+2021-07-23 6:24:02 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishifeatureblock.php on line 133
+2021-07-23 6:24:46 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishifeatureblock.php on line 133
+2021-07-23 6:52:43 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_a2_7.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 7:42:16 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishitestimonialsblock.php on line 91
+2021-07-23 7:46:26 - PHP Notice:  Undefined index: subtitle in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishitestimonialsblock.php on line 91
+2021-07-23 7:58:39 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 7:59:33 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:00:00 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:00:22 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:02:00 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:03:18 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:04:19 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:04:38 - PHP Notice:  Undefined index: bgcolor in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishimanufacturerblock.php on line 95
+2021-07-23 8:58:25 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql2214_10a_7.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 9:08:13 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_10e_8.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 9:17:09 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_117_9.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 9:20:40 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_11f_6.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 9:21:08 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_121_6.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 9:29:41 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_128_7.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 10:00:50 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_138_7.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 10:02:17 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql2214_13d_8.MAI' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 11:50:46 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_198_6.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 11:50:53 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_199_e.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 12:11:05 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql2214_1a9_2b.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 12:19:48 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql2214_1b1_2.MAI' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 12:45:11 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_1f4_8.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-23 12:54:50 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql2214_1fa_7.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 4:20:11 - PHP Warning:  mysqli::query(): (HY000/29): File 'C:\xamp_latest\tmp\#sql1410_3c_7.MAD' not found (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 5:24:36 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1410_62_9.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 6:46:23 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 195
+2021-07-24 6:46:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 195
+2021-07-24 6:50:00 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 185
+2021-07-24 6:50:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 185
+2021-07-24 7:00:30 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:01:18 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:01:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:01:27 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:01:51 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:01:51 - PHP Warning:  Invalid argument supplied for foreach() in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:02:00 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:02:00 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:02:00 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:02:00 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:02:00 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:03:32 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:03:32 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:03:32 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:03:32 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:03:32 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:08:06 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:08:06 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:08:06 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:08:06 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:08:06 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:08:25 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:08:25 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:08:25 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:08:25 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:08:25 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:08:29 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:08:29 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:08:29 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:08:29 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:08:29 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:10:33 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:10:33 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:10:33 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:10:33 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:10:33 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:10:46 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 117
+2021-07-24 7:10:46 - PHP Notice:  Undefined index: image in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 125
+2021-07-24 7:10:46 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 134
+2021-07-24 7:10:46 - PHP Notice:  Undefined index: link in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 135
+2021-07-24 7:10:46 - PHP Notice:  Undefined index: sort_order in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 139
+2021-07-24 7:10:54 - PHP Notice:  Undefined index: icon in C:\xamp_latest\htdocs\Fabulous\catalog\controller\extension\module\ishicategoryblock.php on line 30
+2021-07-24 7:11:01 - PHP Notice:  Undefined index: title in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:11:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\xamp_latest\htdocs\Fabulous\admin\controller\extension\module\ishicategoryblock.php on line 194
+2021-07-24 7:15:47 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql1410_b4_f.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 7:28:41 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1410_ba_7.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 7:37:29 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql1410_be_6.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 7:53:06 - PHP Warning:  mysqli::query(): (HY000/6): Error on delete of 'C:\xamp_latest\tmp\#sql1410_c2_6.MAD' (Errcode: 13 &quot;Permission denied&quot;) in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 11:04:38 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1410_10a_9.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 11:29:24 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1410_112_8.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-07-24 11:41:42 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xamp_latest\tmp\#sql1410_11e_8.MAI' is read only in C:\xamp_latest\htdocs\Fabulous\system\library\db\mysqli.php on line 19
+2021-08-16 4:44:54 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC0100L01/admin/controller/extension/module/ishiparallaxblock.php on line 98
+2021-08-16 4:44:54 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC0100L01/admin/controller/extension/module/ishiparallaxblock.php on line 105
+2021-08-16 4:57:23 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC0100L01/admin/controller/extension/module/ishiparallaxblock.php on line 98
+2021-08-16 4:57:23 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC0100L01/admin/controller/extension/module/ishiparallaxblock.php on line 105
+2021-08-26 9:24:31 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xampp_latest\tmp\#sqla94_16f_8.MAI' is read only in C:\xampp_latest\htdocs\Glow01\system\library\db\mysqli.php on line 19
+2021-08-26 11:26:13 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xampp_latest\tmp\#sqla94_1c8_6.MAI' is read only in C:\xampp_latest\htdocs\Glow01\system\library\db\mysqli.php on line 19
+2021-08-28 4:07:34 - PHP Notice:  Undefined index: code in C:\xampp_latest\htdocs\Glow01\admin\model\design\layout.php on line 38
+2021-08-28 4:35:24 - PHP Notice:  Undefined index: startdate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:35:24 - PHP Notice:  Undefined index: enddate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:35:27 - PHP Notice:  Undefined index: startdate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:35:27 - PHP Notice:  Undefined index: enddate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:36:05 - PHP Notice:  Undefined index: startdate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:36:05 - PHP Notice:  Undefined index: enddate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:36:07 - PHP Notice:  Undefined index: startdate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:36:07 - PHP Notice:  Undefined index: enddate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:42:05 - PHP Notice:  Undefined index: startdate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:42:05 - PHP Notice:  Undefined index: enddate in C:\xampp_latest\htdocs\Glow01\catalog\controller\extension\module\ishiparallaxblock.php on line 14
+2021-08-28 4:43:29 - PHP Notice:  Undefined index: bg_image in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishiparallaxblock.php on line 98
+2021-08-28 4:43:29 - PHP Notice:  Undefined index: bg_image in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishiparallaxblock.php on line 105
+2021-08-28 6:01:50 - PHP Warning:  filesize(): stat failed for C:/xampp_latest/htdocs/Glow01/system/storage/cache/cache.store.1630134110 in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 32
+\file.php on line 49
+2021-08-28 6:01:50 - PHP Warning:  fread(): Length parameter must be greater than 0 in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 32
+2021-08-28 6:01:50 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 51
+2021-08-28 6:01:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 53
+2021-08-28 6:01:50 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 55
+2021-08-28 6:01:50 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 57
+2021-08-28 6:01:50 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\xampp_latest\htdocs\Glow01\system\library\cache\file.php on line 59
+2021-08-28 6:21:15 - PHP Notice:  Undefined index: image in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishitestimonialsblock.php on line 93
+2021-08-28 6:21:15 - PHP Notice:  Undefined index: image in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishitestimonialsblock.php on line 100
+2021-08-28 6:21:49 - PHP Notice:  Undefined index: image in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishitestimonialsblock.php on line 92
+2021-08-28 9:28:03 - PHP Notice:  Undefined index: subtitle in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishigalleryblock.php on line 114
+2021-08-28 10:06:10 - PHP Notice:  Undefined index: subtitle in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 195
+2021-08-28 10:06:22 - PHP Notice:  Undefined index: subtitle in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 195
+2021-08-28 10:21:38 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xampp_latest\tmp\#sql13f0_117_8.MAI' is read only in C:\xampp_latest\htdocs\Glow01\system\library\db\mysqli.php on line 19
+2021-08-28 11:13:14 - PHP Notice:  Undefined index: videolink in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-08-28 11:17:18 - PHP Notice:  Undefined index: videolink in C:\xampp_latest\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-08-28 11:56:54 - PHP Warning:  mysqli::query(): (HY000/1036): Table 'C:\xampp_latest\tmp\#sql13f0_14c_6.MAI' is read only in C:\xampp_latest\htdocs\Glow01\system\library\db\mysqli.php on line 19
+2021-09-04 4:08:38 - PHP Notice:  Undefined index: image in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 221
+2021-09-04 4:08:38 - PHP Notice:  Undefined index: videolink in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 230
+2021-09-04 4:09:10 - PHP Notice:  Undefined index: image in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 221
+2021-09-04 4:09:10 - PHP Notice:  Undefined index: videolink in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 230
+2021-09-04 5:11:58 - PHP Notice:  Undefined index: bgcolor in D:\xampp\htdocs\Glow01\catalog\controller\extension\module\blogger.php on line 35
+2021-09-04 5:12:53 - PHP Notice:  Undefined index: bgcolor in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 211
+2021-09-04 5:12:53 - PHP Notice:  Undefined index: bgcolor in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 211
+2021-09-04 5:12:57 - PHP Notice:  Undefined index: bgcolor in D:\xampp\htdocs\Glow01\admin\controller\extension\module\blogger.php on line 211
+2021-09-04 7:30:26 - PHP Warning:  unlink(D:/xampp/htdocs/Glow01/system/storage/cache/cache.store.1630738073): No such file or directory in D:\xampp\htdocs\Glow01\system\library\cache\file.php on line 17
+2021-09-04 10:21:09 - PHP Warning:  filesize(): stat failed for D:/xampp/htdocs/Glow01/system/storage/cache/cache.store.1630754468 in D:\xampp\htdocs\Glow01\system\library\cache\file.php on line 32
+2021-09-04 10:21:09 - PHP Warning:  fread(): Length parameter must be greater than 0 in D:\xampp\htdocs\Glow01\system\library\cache\file.php on line 32
+2021-09-07 6:21:49 - PHP Notice:  Undefined index: marginbottom in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-09-07 6:21:49 - PHP Notice:  Undefined index: videolink in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 108
+2021-09-07 6:29:26 - PHP Notice:  Undefined index: marginbottom in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-09-07 6:29:26 - PHP Notice:  Undefined index: videolink in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 108
+2021-09-07 6:30:31 - PHP Notice:  Undefined index: marginbottom in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-09-07 6:30:31 - PHP Notice:  Undefined index: videolink in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 108
+2021-09-07 6:38:14 - PHP Notice:  Undefined index: marginbottom in D:\xampp\htdocs\Glow01\admin\controller\extension\module\ishistoryblock.php on line 100
+2021-09-11 6:32:10 - PHP Notice:  Undefined index: subtitle in /var/www/html/user7/OPC112L01/admin/controller/extension/module/ishispecialblock.php on line 147
+2021-09-11 7:14:18 - PHP Warning:  imagecreatefrompng(): gd-png: fatal libpng error: iTXt: chunk data is too large
+ in /var/www/html/user7/OPC112L01/system/library/image.php on line 45
+2021-09-11 7:14:18 - PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition 1
+ in /var/www/html/user7/OPC112L01/system/library/image.php on line 45
+2021-09-11 7:14:18 - PHP Warning:  imagecreatefrompng(): '/var/www/html/user7/OPC112L01/image/catalog/footer-logo.png' is not a valid PNG file in /var/www/html/user7/OPC112L01/system/library/image.php on line 45
+2021-09-11 7:14:18 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in /var/www/html/user7/OPC112L01/system/library/image.php on line 196
+2021-09-11 7:14:18 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in /var/www/html/user7/OPC112L01/system/library/image.php on line 197
+2021-09-11 7:51:47 - PHP Notice:  Undefined index: blogbg_image in /var/www/html/user7/OPC112L01/admin/controller/extension/module/blogger.php on line 248
+2021-09-11 7:55:32 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC112L01/admin/controller/extension/module/blogger.php on line 241
+2021-09-11 7:55:32 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC112L01/admin/controller/extension/module/blogger.php on line 248
+2021-09-11 7:56:01 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC112L01/admin/controller/extension/module/blogger.php on line 241
+2021-09-11 7:56:01 - PHP Notice:  Undefined index: bg_image in /var/www/html/user7/OPC112L01/admin/controller/extension/module/blogger.php on line 248
+2023-03-12 22:27:06 - PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: iTXt: chunk data is too large in D:\OSPanel5.4.3\domains\opencart\system\library\image.php on line 45
+2023-03-12 22:27:06 - PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in D:\OSPanel5.4.3\domains\opencart\system\library\image.php on line 45
+2023-03-12 22:27:06 - PHP Warning:  imagecreatefrompng(): 'D:/OSPanel5.4.3/domains/opencart/image/catalog/footer-logo.png' is not a valid PNG file in D:\OSPanel5.4.3\domains\opencart\system\library\image.php on line 45
+2023-03-12 22:27:06 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\image.php on line 196
+2023-03-12 22:27:06 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\image.php on line 197
+2023-03-12 22:27:47 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishiparallaxblock.php on line 24
+2023-03-12 22:27:47 - PHP Notice:  Trying to access array offset on value of type null in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishiparallaxblock.php on line 24
+2023-03-12 22:28:01 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-12 22:28:01 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-12 22:28:01 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-12 22:28:03 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-12 22:28:03 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-12 22:28:03 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-12 22:32:09 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishiparallaxblock.php on line 24
+2023-03-12 22:32:09 - PHP Notice:  Trying to access array offset on value of type null in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishiparallaxblock.php on line 24
+2023-03-12 23:25:42 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-12 23:25:42 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-12 23:25:42 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:00:48 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:00:48 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:00:48 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:01:51 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:01:51 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:01:51 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:01:53 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:01:53 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:01:53 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:02:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:02:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:02:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:02:16 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:02:16 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:02:16 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:06:26 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:06:26 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:06:26 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:06:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:06:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:06:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:08:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:08:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:08:12 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:09:27 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:09:27 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:09:27 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:09:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:09:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:09:29 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:11:35 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:11:35 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:11:35 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:11:46 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:11:46 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:11:46 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:15:39 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:15:39 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:15:39 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
+2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
+2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50

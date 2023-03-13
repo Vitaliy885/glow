@@ -1,0 +1,86 @@
+<section class="smartblog_block clearfix">
+	<div class="story-video col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<div class="story-image">
+			<div class="img-container">
+				<img src=" {{bgimage}} " alt="story-img" />
+			</div>
+			{% if videolink != blank %}
+				<div class="video-play-icon">
+					<a class="video" href="{{ videolink }}">
+					<span class="ripple-effect">
+						<i class="fa fa-play-circle" aria-hidden="true"></i>
+					</span>
+					</a> 
+				</div>
+			{% endif %}
+		</div>
+	</div>
+	<div class="blog-content col-lg-6 col-md-12 col-sm-12 col-xs-12" style="background-image: url({{ bg_image }})">
+		<div class="container">
+			<div class="row">
+				<div class="blog-title">
+					<div class="subtitle">{{ subtitle }}</div>
+					<h3 class="home-title">{{ heading }}</h3>
+				</div>
+				<div id="smartblog-carousel" class="owl-carousel">
+					{% for blog in blogs %}			
+						<div class="blog_post item">
+							<div class="news_module_image_holder col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								{% if blog.image %} 
+									<a href="{{ blog.href }}">
+										<img src="{{ blog.image }}" alt="{{ heading_title }}" title="{{ heading_title }}" class="img-responsive" />
+									</a>
+									<a class="blogicons icon readmore_link" title="Click to view Read More " href="{{ blog.href }}"><i class="fa fa-link"></i></a>
+								{% endif %} 
+							</div>
+							<div class="blog_content col-lg-8 col-md-8 col-sm-6 col-xs-12">							
+								<div class="blog_date">
+									<span class="date_month">{{ blog.date_added }}</span>
+								</div>						
+								<h4 class="blog_title"><a href="{{ blog.href }}">{{ blog.title }}</a> </h4>	
+								{% if desc == 1 %}					
+									<div class="blog-desc"> {{ blog.description }} </div>	
+								{% endif %}			
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<style>
+			.blog-content{
+				background-color: {{ bgcolor }};
+			}
+		</style>
+	</div>	
+
+	<script type="text/javascript">
+		$('.smartblog_block .owl-carousel').owlCarousel({
+			loop:false,
+			nav:false,
+			dots:true,
+			rewind:true,
+			margin:30,
+			rtl: $('html').attr('dir') == 'rtl'? true : false,
+			navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+			autoplay:false, 
+			responsive:{
+				0:{
+                	items:1
+				},
+				544:{
+					items:1
+				},
+				768:{
+					items:1
+				},
+				992:{
+					items:1
+				},
+				1200:{
+					items:1
+				}
+			}
+		});
+	</script>
+</section>

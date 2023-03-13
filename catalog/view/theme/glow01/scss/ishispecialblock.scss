@@ -1,0 +1,210 @@
+.ishispecial {
+	display: block;
+	text-align: center;
+	@media (max-width: 543px) {
+		margin: 0 -10px 30px;
+	}
+	.product-layout{
+		@media (max-width: 767px) {/* If media is below 992 */
+			padding: 10px;
+		}
+		@media (max-width: 543px) {/* If media is below 992 */
+			padding: 0;
+		}
+		display: block;
+		width: 100%;
+		padding: 15px;
+		overflow: hidden;
+		position: relative;
+		.product-thumb{
+			background-color: transparent;
+			@media (max-width: 767px) {/* If media is below 992 */
+				display: block;
+				border: 0;
+				border-radius: 0;
+			}
+			padding: 5px;
+			border: 1px solid #eee;
+			border-radius: 5px;
+			overflow: hidden;
+			position: relative;
+			display: flex;
+			align-items: center;
+			.image {
+				padding-left: 0;
+				@media (max-width: 767px) {/* If media is below 544 */
+					padding: 0;
+				}
+		        img {
+		            margin: 0 auto;
+					max-width:100%;
+		            -webkit-transition: all 0.7s ease 0s;
+		            -moz-transition: all 0.7s ease 0s;
+		            -ms-transition: all 0.7s ease 0s;
+		            -o-transition: all 0.7s ease 0s;
+		            transition: all 0.7s ease 0s; 
+		        }  
+			}
+			.outstock-overlay {
+				display: none;
+			}
+			.caption {
+				@media (max-width: 767px) {/* If media is below 992 */
+					padding: 0 15px;
+					margin: 10px 0 5px;
+					text-align: center;
+					display: block;
+					position: relative;
+				}
+				@media (max-width: 543px) {/* If media is below 544 */
+					padding: 0;
+				}
+				text-align: left;
+				padding: 0 5px;
+				h4 {
+					@media (max-width: 991px) {/* If media is below 992 */
+			    		margin-bottom: 10px;
+			    	}
+				    display: block;
+				    margin-bottom: 5px;
+				    a{						    
+				    	font-size: 14px;
+				    }
+			    }
+			    .rating {
+			    	position: unset;
+					text-align: left;
+					line-height: 17px;
+					display: inline-block;
+					vertical-align: middle;
+					margin-bottom: 6px;
+					opacity: 1;
+			    }
+			    .price {
+			    	@media (max-width: 991px) {/* If media is below 992 */
+			    		margin-bottom: 10px;
+			    	}
+				    opacity: 1;
+					margin-bottom: 7px;
+				}
+				.countdown-container {
+					@media (max-width: 767px) {
+						/* iIf media is below 768 */
+						position: relative;
+						bottom: 0;
+						margin-bottom: 15px;
+					}
+					left: 0;
+					right: 0;
+					bottom: -12px;
+					opacity: 1;
+					display: inline-table;
+					background: $light-color;
+					border: 1px solid #eeeeee;
+					.counter {
+						@media screen and (min-width: 992px) and (max-width: 1199px) {
+							/* If media is between 992 and 1199 */
+							padding: 5px 1px 3px;
+						}
+						@media (max-width: 400px) {
+							/* If media s below 400 */
+							padding: 6px 2px 3px;
+						}
+						padding: 5px 7px 3px;
+						.data {
+							font-size: 14px;
+						}
+						.lbl {
+							@media (max-width: 400px) {
+								/* If media s below 400 */
+								font-size: 11px;
+							}
+							display: block;
+							font-size: 12px;
+							padding-top: 3px;
+						}
+					}
+				}
+				.button-group {
+					display: block;
+					position: unset;
+					width: auto;
+					height: auto;
+					overflow: hidden;
+					> div {
+						display: inline-block;
+						vertical-align: middle;
+						margin: 0;
+						cursor: pointer;
+						@media (min-width: 768px) {/* If media is above 543 */
+							opacity: 0;
+							transform: translateX(-50px);
+					        -moz-transform:translateX(-50px);  
+					        -webkit-transform:translateX(-50px);  
+					        -o-transform:translateX(-50px);  
+					        -ms-transform:translateX(-50px);
+					    }
+						button,
+						.button,
+						.quickbox {
+							.icon{
+								fill: $light-color;
+								background-color: $btn-secondary-bg-color;
+								border-radius: 50%;
+								box-shadow: none;
+								width: 35px;
+								height: 35px;
+								-webkit-transition: all 0.5s;
+								-moz-transition: all 0.5s;
+								-o-transition: all 0.5s;
+								transition: all 0.5s;
+								@media screen and (min-width: 768px) and (max-width: 991px) {
+									width: 33px;
+									height: 33px;
+								}
+								@media (max-width: 543px) {
+									width: 33px;
+									height: 33px;
+								}
+								&:hover {
+									background-color: $btn-hover-secondary-bg-color;
+								}
+							}
+						}
+					}
+					.btn-cart{
+				      	position: unset;
+				      	@media (min-width: 768px) {/* If media is above 543 */
+							-moz-transform: translateX(-50px);
+							-webkit-transform: translateX(-50px);
+							-o-transform: translateX(-50px);
+							-ms-transform: translateX(-50px);
+						}
+						-webkit-transition: all ease-in-out .8s;
+					    -moz-transition: all ease-in-out .8s;
+					    -o-transition: all ease-in-out .8s;
+					    transition: all ease-in-out .8s;
+				    }
+				}
+			}   
+			&:hover {
+				.countdown-container {
+					@media (min-width: 768px) {
+						/* If media is above 543 */
+						opacity: 0;
+					}
+				}
+				.button-group {
+			      	.btn-quickview, .btn-wishlist, .btn-compare, .btn-cart {
+			        	opacity: 1;
+			        	transform: translateY(0);
+				        -moz-transform:translateY(0);  
+				        -webkit-transform:translateY(0);  
+				        -o-transform:translateY(0);  
+				        -ms-transform:translateY(0);
+			      	}
+			    }
+			}       	
+		}
+	} 
+}

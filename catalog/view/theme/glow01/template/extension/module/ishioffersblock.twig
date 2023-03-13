@@ -1,0 +1,43 @@
+<div id="ishioffersblock">
+	<div class="container">	
+        <div class="offer-background" style="background: {{ bg_color }};">
+            <div id="offer-carousel" class="owl-carousel">
+                    {% for offer in offers %} 
+                        <div class="item">
+                            <p>{{ offer.title }}</p>
+                        </div>
+                    {% endfor %}
+            </div>
+        </div>
+    </div>    
+    <button type="button" class="close" data-dismiss="modal">×</button>
+</div>
+<script type="text/javascript">
+        $('#offer-carousel.owl-carousel').owlCarousel({
+            loop:true,
+            nav:false,
+            dots:false,
+            autoplay:true,
+            animateIn: 'slideInUp',
+            margin: 30,
+            rtl: $('html').attr('dir') == 'rtl'? true : false,
+            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            responsive:{
+                    0:{
+                        items:1
+                    },
+                    544:{
+                        items:1
+                    },
+                    768:{
+                        items:1
+                    },
+                    992:{
+                        items:1
+                    },
+                    1200:{
+                        items:1
+                    }
+                }
+        });
+</script>

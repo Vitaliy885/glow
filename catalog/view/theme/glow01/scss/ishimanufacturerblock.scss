@@ -1,0 +1,30 @@
+.manufacturerblock {
+	text-align: center;
+	.home-title {
+		display: none;
+	}
+	.item {
+		img {
+			max-width: 200px;
+			display: inline-block;
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-o-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			transition: all 1s;
+			-webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			-o-transition: all 1s;
+		}
+		&:hover {
+			img {
+				-moz-transform: scale(.9);
+				-webkit-transform: scale(.9);
+				-o-transform: scale(.9);
+				-ms-transform: scale(.9);
+				transform: scale(.9);
+			}
+		}
+	}
+}
