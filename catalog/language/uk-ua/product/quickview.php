@@ -1,3 +1,3 @@
 <?php
 // Text
-$_['quick_view']              = 'Quick View';
+$_['quick_view']              = 'Міні-вигляд';
