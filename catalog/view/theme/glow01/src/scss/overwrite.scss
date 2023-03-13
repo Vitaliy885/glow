@@ -1,0 +1,31 @@
+.minicart {
+  &-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &-button {
+    width: 100%;
+  }
+}
+
+.breadcrumb {
+  padding: 10px 0;
+  text-align: left;
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.language {
+  &-selector {
+    &::after {
+      content: none;
+    }
+  }
+}
