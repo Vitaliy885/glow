@@ -490,3 +490,9 @@
 2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 47
 2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 48
 2023-03-13 0:19:10 - PHP Notice:  Undefined offset: 3 in D:\OSPanel5.4.3\domains\opencart\catalog\controller\extension\module\ishibannerblock.php on line 50
+2023-03-13 20:47:57 - PHP Warning:  fopen(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678744071): failed to open stream: No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 28
+2023-03-13 20:47:57 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 30
+2023-03-13 20:47:57 - PHP Warning:  filesize(): stat failed for D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678744071 in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-13 20:47:57 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-13 20:47:57 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 34
+2023-03-13 20:47:57 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 36

@@ -17,8 +17,18 @@
   width: 100%;
   margin: 0 auto;
 
+  @media (min-width: 544px) {
+    max-width: 576px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
   @media (min-width: 1200px) {
     max-width: 1200px;
+  }
+
+  @media (max-width: 991px) {
+    padding: 10px 15px;
   }
 }
 
