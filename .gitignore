@@ -1,0 +1,15 @@
+.idea/
+image/
+/config.php
+admin/config.php
+.vscode/
+system/storage/upload/
+system/storage/cache/
+system/storage/logs/
+system/storage/download/
+system/storage/vendor/
+node_modules/
+catalog/view/theme/glow01/node_modules/
+catalog/view/theme/glow01/package-lock.json
+/jsError.php
+xml/

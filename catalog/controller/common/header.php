@@ -3,6 +3,7 @@ class ControllerCommonHeader extends Controller {
 	public function index() {
 		// Analytics
 		$this->load->model('setting/extension');
+        $this->document->addStyle('catalog/view/theme/glow01/dist/css/overwrite.min.css');
 
 		$data['analytics'] = array();
 
