@@ -75,14 +75,14 @@
         }
 
         if (carousel) {
-            carousel.querySelector('.thumbnail').addEventListener('mouseover', function () {
+            carousel.querySelector('.thumbnail').addEventListener('mouseover', () => {
                 zoomSticky.style.visibility = 'visible';
                 zoom.style.display = 'block';
                 imageZoom();
             });
 
-            carousel.querySelector('.thumbnail').addEventListener('mouseleave', function () {
-                document.querySelector('.zoom').style.display = 'none';
+            carousel.querySelector('.thumbnail').addEventListener('mouseleave', () => {
+                zoom.style.display = 'none';
                 zoomSticky.style.visibility = 'hidden';
             });
         }

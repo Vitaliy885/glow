@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/product/product.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/product/product.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
-      <workItem from="1678649609864" duration="28330000" />
+      <workItem from="1678649609864" duration="28437000" />
     </task>
     <servers />
   </component>
