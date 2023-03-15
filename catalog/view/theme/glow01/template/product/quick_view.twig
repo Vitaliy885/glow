@@ -260,7 +260,7 @@
       {{ content_middle }}{{ content_bottom }}
   </div>
 </div>
-<script type="text/javascript"><!--
+<script type="text/javascript">
   $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
     $.ajax({
       url: 'index.php?route=product/product/getRecurringDescription',
@@ -279,8 +279,8 @@
       }
     });
   });
-//--></script>
-<script type="text/javascript"><!--
+</script>
+<script type="text/javascript">
   $('#button-cartqv').on('click', function() {
     $.ajax({
       url: 'index.php?route=checkout/cart/add',
@@ -378,7 +378,7 @@
     });
   });
 </script>
-<script type="text/javascript"><!--
+<script type="text/javascript">
   $('.date').datetimepicker({
     language: '{{ datepicker }}',
     pickTime: false
@@ -447,7 +447,7 @@
     }, 500);
   });
 </script>
-<script type="text/javascript"><!--
+<script type="text/javascript">
   $('#review').delegate('.pagination a', 'click', function(e) {
     e.preventDefault();
 
@@ -463,7 +463,6 @@
 
   $('#top').remove();
   $('.top_button').remove();
-//-->  
 </script>
 
 <style>

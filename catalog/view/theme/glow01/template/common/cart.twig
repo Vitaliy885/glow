@@ -41,9 +41,9 @@
             <td class="text-center product-image col-md-3 col-sm-3 col-xs-3">{% if product.thumb %} <a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a> {% endif %}
             </td>
             <td class="text-left col-md-7 col-sm-7 col-xs-7">
-              <span class="quantity-formated">{{ product.quantity }} x</span>
               <a class="cart_block_product_name" href="{{ product.href }}">{{ product.name }}</a> 
               <span class="text-price text-left">{{ product.total }}</span>
+              <span class="product-detail">Кількість - {{ product.quantity }} х</span>
               {% if product.option %}
               {% for option in product.option %}
                <span class="product-detail">{{ option.name }} - {{ option.value }}</span> {% endfor %}
