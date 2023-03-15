@@ -511,3 +511,10 @@
 2023-03-13 22:43:29 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 36
 2023-03-13 22:44:28 - PHP Warning:  unlink(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678751065): No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 68
 2023-03-13 22:51:12 - PHP Warning:  unlink(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678751472): No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 68
+2023-03-14 23:23:43 - PHP Warning:  unlink(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678839823): No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 68
+2023-03-14 23:46:46 - PHP Warning:  fopen(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678841103): failed to open stream: No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 28
+2023-03-14 23:46:46 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 30
+2023-03-14 23:46:46 - PHP Warning:  filesize(): stat failed for D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678841103 in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-14 23:46:46 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-14 23:46:46 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 34
+2023-03-14 23:46:46 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 36

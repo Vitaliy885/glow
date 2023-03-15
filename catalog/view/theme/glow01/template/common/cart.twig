@@ -46,10 +46,10 @@
               <span class="text-price text-left">{{ product.total }}</span>
               {% if product.option %}
               {% for option in product.option %}
-              - <span class="product-detail">{{ option.name }} {{ option.value }}</span> {% endfor %}
+               <span class="product-detail">{{ option.name }} - {{ option.value }}</span> {% endfor %}
               {% endif %}
               {% if product.recurring %} <br />
-              - <span class="product-detail">{{ text_recurring }} {{ product.recurring }}</span> {% endif %}
+              <span class="product-detail">{{ text_recurring }} - {{ product.recurring }}</span> {% endif %}
             </td>
             
             <td class="text-center col-md-1 col-sm-1 col-xs-1"><button type="button" onclick="cart.remove('{{ product.cart_id }}');" title="{{ button_remove }}" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
