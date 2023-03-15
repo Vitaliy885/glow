@@ -66,9 +66,12 @@
                 <span class="label label-info">{{ text_recurring_item }}</span> <small>{{ product.recurring }}</small> {% endif %}</td>
               <td class="text-left">{{ product.model }}</td>
               <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
-                  <input type="text" name="quantity[{{ product.cart_id }}]" value="{{ product.quantity }}" size="1" class="form-control" />
+                  <div class="input-group mini-cart-btns">
+                    <button type="submit" onclick="document.querySelector('.quantity-input-{{ loop.index }}').setAttribute('value', {{ product.quantity + 1 }})" data-toggle="tooltip" title="{{ button_update }}" class="btn btn-primary">+</button>
+                    <input type="text" name="quantity[{{ product.cart_id }}]" value="{{ product.quantity }}" size="1" class="form-control quantity-input-{{ loop.index }}" />
+                    <button type="submit" onclick="document.querySelector('.quantity-input-{{ loop.index }}').setAttribute('value', {{ product.quantity - 1 }})" data-toggle="tooltip" title="{{ button_update }}" class="btn btn-primary">-</button>
+                  </div>
                   <span class="input-group-btn">
-                  <button type="submit" data-toggle="tooltip" title="{{ button_update }}" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
                   <button type="button" data-toggle="tooltip" title="{{ button_remove }}" class="btn btn-danger" onclick="cart.remove('{{ product.cart_id }}');"><i class="fa fa-times-circle"></i></button>
                   </span></div></td>
               <td class="text-right unit-price">{{ product.price }}</td>
