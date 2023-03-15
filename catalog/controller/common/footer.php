@@ -2,6 +2,7 @@
 class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');
+        $this->document->addScript('catalog/view/theme/glow01/dist/js/common.js');
 
 		$this->load->model('catalog/information');
 
