@@ -524,3 +524,10 @@
 2023-03-15 0:58:29 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
 2023-03-15 0:58:29 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 34
 2023-03-15 0:58:29 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 36
+2023-03-15 1:14:02 - PHP Warning:  fopen(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678846412): failed to open stream: No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 28
+2023-03-15 1:14:02 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 30
+2023-03-15 1:14:02 - PHP Warning:  filesize(): stat failed for D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678846412 in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-15 1:14:02 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 32
+2023-03-15 1:14:02 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 34
+2023-03-15 1:14:02 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 36
+2023-03-15 1:40:30 - PHP Warning:  unlink(D:/OSPanel5.4.3/domains/opencart/system/storage/cache/cache.product.bestseller.3.0.1.4.1678847907): No such file or directory in D:\OSPanel5.4.3\domains\opencart\system\library\cache\file.php on line 68

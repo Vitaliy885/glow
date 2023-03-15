@@ -112,7 +112,8 @@
                     {% if thumb %}
                       <div class="carousel-container">
                         <a class="thumbnail" href="{{ popup }}" title="{{ heading_title }}">
-                          <img src="{{ popup }}" title="{{ heading_title }}" alt="{{ heading_title }}" />
+                          <div class="img-zoom-lens"></div>
+                          <img src="{{ popup }}" id="myimage" title="{{ heading_title }}" alt="{{ heading_title }}" />
                         </a>
                       </div>
                     {% endif %}
@@ -240,7 +241,10 @@
             {% else %}
             {% set class = 'col-md-5 col-sm-6' %}
             {% endif %}
-            <div class="{{ class }} product-right">  
+            <div class="{{ class }} product-right">
+              <div class="zoom-sticky">
+                <div class="zoom" id="myresult"></div>
+              </div>
               <div class="product-left-title hidden-xs">
                 <h1 class="product-title">{{ heading_title }}</h1>
                 <span class="product-stock">{{ stock_status }}</span>
@@ -248,19 +252,19 @@
               {% if review_status %}
               <div class="rating-wrapper">
                 {% for i in 1..5 %}
-                  {% if rating < i %} 
+                  {% if rating < i %}
                     <span class="fa fa-stack">
                       <i class="fa fa-star gray fa-stack-2x"></i>
-                    </span> 
-                  {% else %} 
+                    </span>
+                  {% else %}
                     <span class="fa fa-stack">
                       <i class="fa fa-star yellow fa-stack-2x"></i>
-                    </span> 
+                    </span>
                   {% endif %}
                 {% endfor %}
                 <a class="review-count" href="" onclick="customclick(); return false;">{{ reviews }}</a> / <a class="write-review" href="" onclick="customclick(); return false;"><i class="fa fa-pencil"></i> {{ text_write }}</a>
               </div>
-              {% endif %} 
+              {% endif %}
               {% if price %}
                 <ul class="list-unstyled price">
                   {% if not special %}
@@ -285,7 +289,7 @@
                   {% endfor %}
                   {% endif %}
                 </ul>
-              {% endif %}			  
+              {% endif %}
               {% if date_end and product_page_counter == 1 %}
               <div class="ishicounter" data-countdowntime="{{ date_end }}"></div>
                 <div class='countdown-container'>
@@ -307,12 +311,12 @@
                     <span class="lbl">{{ sec_name }}</span>
                   </div>
                 </div>
-              {% endif %}	
-              <hr>		 
-              <div id="product"> 
+              {% endif %}
+              <hr>
+              <div id="product">
                 {% if options %}
                   <div class="row">
-                  {% for option in options %}                    
+                  {% for option in options %}
                     {% if option.type == 'select' %}
                       <div class="product_option col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div class="form-group{% if option.required %} required {% endif %}">
@@ -337,13 +341,13 @@
                             <div class="radio">
                               <label>
                                 <input type="radio" name="option[{{ option.product_option_id }}]" value="{{ option_value.product_option_value_id }}" />
-                                {% if option_value.image %} <img src="{{ option_value.image }}" alt="{{ option_value.name }} {% if option_value.price %} {{ option_value.price_prefix }} {{ option_value.price }} {% endif %}" class="img-thumbnail" /> {% endif %}                  
+                                {% if option_value.image %} <img src="{{ option_value.image }}" alt="{{ option_value.name }} {% if option_value.price %} {{ option_value.price_prefix }} {{ option_value.price }} {% endif %}" class="img-thumbnail" /> {% endif %}
                                 {{ option_value.name }}
                                 {% if option_value.price %}
                                 ({{ option_value.price_prefix }}{{ option_value.price }})
                                 {% endif %} </label>
                             </div>
-                            {% endfor %} 
+                            {% endfor %}
                           </div>
                         </div>
                       </div>
@@ -449,7 +453,7 @@
                 {% if minimum > 1 %}
                   <div class="alert alert-info col-lg-12 col-md-12 col-sm-12 col-xs-12"><i class="fa fa-info-circle"></i> {{ text_minimum }}</div>
                 {% endif %}
-              </div> 
+              </div>
               <div class="form-group">
                 <input type="text" hidden name="quantity" value="{{ minimum }}" size="2" id="input-quantity" />
                 <input type="hidden" name="product_id" value="{{ product_id }}"/>
@@ -468,7 +472,7 @@
                   <svg class="icon" viewBox="0 0 35 35"><use xlink:href="#report" x="25%" y="30%"></use></svg>
                   <i class="fa fa-exchange"></i>
                 </button>
-              </div> 
+              </div>
               <ul class="list-unstyled attr">
                 {% if manufacturer %}
                 <li><span>{{ text_manufacturer }}</span> <a href="{{ manufacturers }}">{{ manufacturer }}</a></li>

@@ -225,3 +225,48 @@
     }
   }
 }
+
+.zoom-sticky {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+
+  .zoom {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 0;
+    padding-bottom: 100%;
+    background: #ffffff;
+    display: none;
+    @media (max-width: 768px) {
+      display: none !important;
+    }
+
+  }
+}
+
+.product {
+  &-left {
+    .thumbnail {
+      &:hover {
+        .img-zoom-lens {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #ddd;
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
