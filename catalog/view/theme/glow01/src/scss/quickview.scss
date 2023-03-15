@@ -1,0 +1,105 @@
+.quickview {
+  .quickview {
+    &-container {
+      .productpage {
+        &-quickview {
+          .product {
+            &-right {
+              .rating {
+                &-wrapper {
+                  margin: 5px 0;
+                  padding-top: 5px;
+                  border-top: 1px solid #eee;
+                }
+              }
+
+              #product2 {
+                .control-label {
+                  &::before {
+                    content: none;
+                  }
+                }
+
+                .form-group {
+                  #input-option237 {
+                    .radio {
+                      label {
+                        position: relative;
+                        font-size: 16px;
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        padding-left: 0;
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        input {
+                          display: block;
+                          width: 0;
+                          height: 0;
+                        }
+
+                        input:checked {
+                          &::after {
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            z-index: 1;
+                            top: -22px;
+                            left: -10px;
+                            border: 1px solid #000;
+                            border-radius: 4px;
+                            background: transparent;
+                            width: 40px;
+                            height: 40px;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  div[id^="input-option"] {
+                    display: flex;
+                    padding: 10px 0;
+                    gap: 10px;
+
+                    .radio {
+                      margin: 0;
+                      flex-shrink: 0;
+
+                      label {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 5px;
+                        padding-left: 0;
+                        font-size: 12px;
+
+                        input {
+                          display: none;
+
+                          &:checked + img {
+                            border: 1px solid #333;
+                          }
+                        }
+
+                        img {
+                          width: 60px;
+                          height: 60px;
+                          transition: unset;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
