@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/common/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/common/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/cart.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/cart.twig" afterDir="false" />
@@ -28,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.buildTools.gulp.gulp_package_dir": "D:/OSPanel5.4.3/domains/opencart/catalog/view/theme/glow01/node_modules/gulp",
-    "last_opened_file_path": "D:/softs/OpenServer/domains/svit",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;D:/OSPanel5.4.3/domains/opencart/catalog/view/theme/glow01/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/qlicks/bladzy-module-brands&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OSPanel5.4.3\domains\opencart" />
@@ -86,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
-      <workItem from="1678649609864" duration="36189000" />
+      <workItem from="1678649609864" duration="37350000" />
+      <workItem from="1679004714356" duration="5037000" />
     </task>
     <servers />
   </component>
