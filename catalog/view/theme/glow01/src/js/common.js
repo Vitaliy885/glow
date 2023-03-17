@@ -1,6 +1,6 @@
 (function () {
     function imageZoom() {
-        let img, lens, result, cx, cy;
+        var img, lens, result, cx, cy;
         img = document.getElementById('myimage');
         result = document.getElementById('myresult');
         lens = document.querySelector('.img-zoom-lens');
@@ -59,15 +59,26 @@
         }
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-        let thumbnails = document.querySelector('.image_show'),
+    document.addEventListener('DOMContentLoaded', function () {
+        var thumbnails = document.querySelector('.image_show'),
             zoomSticky = document.querySelector('.zoom-sticky'),
             zoom = document.querySelector('.zoom'),
-            carousel = document.querySelector('.carousel-container');
+            carousel = document.querySelector('.carousel-container'),
+            prealoader = document.querySelector('.preloader');
+
+        window.loader = {
+            show: function () {
+                prealoader.classList.remove('d-none');
+            },
+
+            close: function () {
+                prealoader.classList.add('d-none');
+            }
+        };
 
         if (thumbnails) {
-            thumbnails.querySelectorAll('.thumbnail').forEach((item) => {
-                item.addEventListener('mouseenter', () => {
+            thumbnails.querySelectorAll('.thumbnail').forEach(function (item) {
+                item.addEventListener('mouseenter', function () {
                     document.querySelector('.carousel-container').querySelector('.thumbnail').setAttribute('href', item.getAttribute('href'));
                     document.querySelector('.carousel-container').querySelector('img').setAttribute('src', item.getAttribute('href'));
                 });
@@ -75,13 +86,13 @@
         }
 
         if (carousel) {
-            carousel.querySelector('.thumbnail').addEventListener('mouseover', () => {
+            carousel.querySelector('.thumbnail').addEventListener('mouseover', function () {
                 zoomSticky.style.visibility = 'visible';
                 zoom.style.display = 'block';
                 imageZoom();
             });
 
-            carousel.querySelector('.thumbnail').addEventListener('mouseleave', () => {
+            carousel.querySelector('.thumbnail').addEventListener('mouseleave', function () {
                 zoom.style.display = 'none';
                 zoomSticky.style.visibility = 'hidden';
             });
