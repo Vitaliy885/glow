@@ -436,8 +436,11 @@
     &-contact {
       .block {
         .content {
-          .phone-title hidden-md-down {
-            
+          .phone-title,
+          .email-title,
+          .address-title {
+            color: #333;
+            font-weight: 400;
           }
         }
       }
