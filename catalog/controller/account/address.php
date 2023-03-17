@@ -168,15 +168,13 @@ class ControllerAccountAddress extends Controller {
 			if ($result['address_format']) {
 				$format = $result['address_format'];
 			} else {
-				$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+				$format = '{firstname} {lastname}' . "\n" . '{address_1}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 			}
 
 			$find = array(
 				'{firstname}',
 				'{lastname}',
-				'{company}',
 				'{address_1}',
-				'{address_2}',
 				'{city}',
 				'{postcode}',
 				'{zone}',
@@ -187,11 +185,8 @@ class ControllerAccountAddress extends Controller {
 			$replace = array(
 				'firstname' => $result['firstname'],
 				'lastname'  => $result['lastname'],
-				'company'   => $result['company'],
 				'address_1' => $result['address_1'],
-				'address_2' => $result['address_2'],
 				'city'      => $result['city'],
-				'postcode'  => $result['postcode'],
 				'zone'      => $result['zone'],
 				'zone_code' => $result['zone_code'],
 				'country'   => $result['country']
@@ -275,11 +270,6 @@ class ControllerAccountAddress extends Controller {
 			$data['error_city'] = '';
 		}
 
-		if (isset($this->error['postcode'])) {
-			$data['error_postcode'] = $this->error['postcode'];
-		} else {
-			$data['error_postcode'] = '';
-		}
 
 		if (isset($this->error['country'])) {
 			$data['error_country'] = $this->error['country'];
@@ -325,36 +315,12 @@ class ControllerAccountAddress extends Controller {
 			$data['lastname'] = '';
 		}
 
-		if (isset($this->request->post['company'])) {
-			$data['company'] = $this->request->post['company'];
-		} elseif (!empty($address_info)) {
-			$data['company'] = $address_info['company'];
-		} else {
-			$data['company'] = '';
-		}
-
 		if (isset($this->request->post['address_1'])) {
 			$data['address_1'] = $this->request->post['address_1'];
 		} elseif (!empty($address_info)) {
 			$data['address_1'] = $address_info['address_1'];
 		} else {
 			$data['address_1'] = '';
-		}
-
-		if (isset($this->request->post['address_2'])) {
-			$data['address_2'] = $this->request->post['address_2'];
-		} elseif (!empty($address_info)) {
-			$data['address_2'] = $address_info['address_2'];
-		} else {
-			$data['address_2'] = '';
-		}
-
-		if (isset($this->request->post['postcode'])) {
-			$data['postcode'] = $this->request->post['postcode'];
-		} elseif (!empty($address_info)) {
-			$data['postcode'] = $address_info['postcode'];
-		} else {
-			$data['postcode'] = '';
 		}
 
 		if (isset($this->request->post['city'])) {

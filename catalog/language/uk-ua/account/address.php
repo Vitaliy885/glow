@@ -22,7 +22,7 @@ $_['entry_postcode'] = 'індекс';
 $_['entry_city'] = 'Місто';
 $_['entry_country'] = 'Країна';
 $_['entry_zone'] = 'Регіон / Область';
-$_['entry_default'] = 'Основний адресу';
+$_['entry_default'] = 'Основна адреса';
 
 // Error
 $_['error_delete'] = 'Ви повинні додати не менше 1 адреси!';

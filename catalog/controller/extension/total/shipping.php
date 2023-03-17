@@ -20,12 +20,6 @@ class ControllerExtensionTotalShipping extends Controller {
 				$data['zone_id'] = '';
 			}
 
-			if (isset($this->session->data['shipping_address']['postcode'])) {
-				$data['postcode'] = $this->session->data['shipping_address']['postcode'];
-			} else {
-				$data['postcode'] = '';
-			}
-
 			if (isset($this->session->data['shipping_method'])) {
 				$data['shipping_method'] = $this->session->data['shipping_method']['code'];
 			} else {
