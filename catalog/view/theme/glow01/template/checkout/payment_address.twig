@@ -36,34 +36,16 @@
         <input type="text" name="lastname" value="" placeholder="{{ entry_lastname }}" id="input-payment-lastname" class="form-control" />
       </div>
     </div>
-    <div class="form-group">
-      <label class="col-sm-2 control-label" for="input-payment-company">{{ entry_company }}</label>
-      <div class="col-sm-10">
-        <input type="text" name="company" value="" placeholder="{{ entry_company }}" id="input-payment-company" class="form-control" />
-      </div>
-    </div>
     <div class="form-group required">
       <label class="col-sm-2 control-label" for="input-payment-address-1">{{ entry_address_1 }}</label>
       <div class="col-sm-10">
         <input type="text" name="address_1" value="" placeholder="{{ entry_address_1 }}" id="input-payment-address-1" class="form-control" />
       </div>
     </div>
-    <div class="form-group">
-      <label class="col-sm-2 control-label" for="input-payment-address-2">{{ entry_address_2 }}</label>
-      <div class="col-sm-10">
-        <input type="text" name="address_2" value="" placeholder="{{ entry_address_2 }}" id="input-payment-address-2" class="form-control" />
-      </div>
-    </div>
     <div class="form-group required">
       <label class="col-sm-2 control-label" for="input-payment-city">{{ entry_city }}</label>
       <div class="col-sm-10">
         <input type="text" name="city" value="" placeholder="{{ entry_city }}" id="input-payment-city" class="form-control" />
-      </div>
-    </div>
-    <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-payment-postcode">{{ entry_postcode }}</label>
-      <div class="col-sm-10">
-        <input type="text" name="postcode" value="" placeholder="{{ entry_postcode }}" id="input-payment-postcode" class="form-control" />
       </div>
     </div>
     <div class="form-group required">
@@ -203,7 +185,7 @@
     </div>
   </div>
 </form>
-<script type="text/javascript"><!--
+<script type="text/javascript">
 $('input[name=\'payment_address\']').on('change', function() {
 	if (this.value == 'new') {
 		$('#payment-existing').hide();
@@ -213,8 +195,8 @@ $('input[name=\'payment_address\']').on('change', function() {
 		$('#payment-new').hide();
 	}
 });
-//--></script>
-<script type="text/javascript"><!--
+</script>
+<script type="text/javascript">
 // Sort the custom fields
 $('#collapse-payment-address .form-group[data-sort]').detach().each(function() {
 	if ($(this).attr('data-sort') >= 0 && $(this).attr('data-sort') <= $('#collapse-payment-address .form-group').length-2) {
@@ -233,8 +215,8 @@ $('#collapse-payment-address .form-group[data-sort]').detach().each(function() {
 		$('#collapse-payment-address .form-group:first').before(this);
 	}
 });
-//--></script>
-<script type="text/javascript"><!--
+</script>
+<script type="text/javascript">
 $('#collapse-payment-address button[id^=\'button-payment-custom-field\']').on('click', function() {
 	var element = this;
 
@@ -286,8 +268,8 @@ $('#collapse-payment-address button[id^=\'button-payment-custom-field\']').on('c
 		}
 	}, 500);
 });
-//--></script>
-<script type="text/javascript"><!--
+</script>
+<script type="text/javascript">
 $('.date').datetimepicker({
 	language: '{{ datepicker }}',
 	pickTime: false
@@ -304,7 +286,7 @@ $('.datetime').datetimepicker({
 	pickTime: true
 });
 //--></script>
-<script type="text/javascript"><!--
+<script type="text/javascript">
 $('#collapse-payment-address select[name=\'country_id\']').on('change', function() {
 	$.ajax({
 		url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
@@ -347,4 +329,4 @@ $('#collapse-payment-address select[name=\'country_id\']').on('change', function
 });
 
 $('#collapse-payment-address select[name=\'country_id\']').trigger('change');
-//--></script>
+</script>

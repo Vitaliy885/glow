@@ -22,16 +22,19 @@
     {% else %}
     {% set class = 'col-sm-12' %}
     {% endif %}
-    <div id="content" class="{{ class }}">{{ content_top }}
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">{{ text_checkout_option }}</h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-checkout-option">
-            <div class="panel-body"></div>
-          </div>
-        </div>
+      <div id="content" class="{{ class }}">{{ content_top }}
+          {% if not logged %}
+          <button id="login-button">Якщо у вас уже є обліковий запис у нас, увійдіть на <b><u>сторінці входу</u></b>.</button>
+          {% endif %}
+          <div class="panel-group" id="accordion">
+              <div class="panel panel-default d-none">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">{{ text_checkout_option }}</h4>
+                  </div>
+                  <div class="panel-collapse collapse" id="collapse-checkout-option">
+                      <div class="panel-body"></div>
+                  </div>
+              </div>
         {% if not logged and account != 'guest' %}
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -107,13 +110,13 @@ $(document).on('change', 'input[name=\'account\']', function() {
 });
 
 {% if not logged %}
-$(document).ready(function() {
+$(document).delegate('#login-button', 'click', function() {
     $.ajax({
         url: 'index.php?route=checkout/login',
         dataType: 'html',
         success: function(html) {
            $('#collapse-checkout-option .panel-body').html(html);
-
+            $('#collapse-checkout-option').parent().removeClass('d-none');
 			$('#collapse-checkout-option').parent().find('.panel-heading .panel-title').html('<a href="#collapse-checkout-option" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">{{ text_checkout_option }} <i class="fa fa-caret-down"></i></a>');
 
 			$('a[href=\'#collapse-checkout-option\']').trigger('click');
@@ -141,11 +144,11 @@ $(document).ready(function() {
     });
 });
 {% endif %}
-
+{% if not logged %}
 // Checkout
-$(document).delegate('#button-account', 'click', function() {
+$(document).ready(function() {
     $.ajax({
-        url: 'index.php?route=checkout/' + $('input[name=\'account\']:checked').val(),
+        url: 'index.php?route=checkout/register',
         dataType: 'html',
         beforeSend: function() {
         	$('#button-account').button('loading');
@@ -172,7 +175,7 @@ $(document).delegate('#button-account', 'click', function() {
         }
     });
 });
-
+{% endif %}
 // Login
 $(document).delegate('#button-login', 'click', function() {
     $.ajax({
@@ -255,6 +258,8 @@ $(document).delegate('#button-register', 'click', function() {
                                 url: 'index.php?route=checkout/shipping_address',
                                 dataType: 'html',
                                 success: function(html) {
+                                    $('#login-button').addClass('d-none');
+                                    $('#collapse-checkout-option').parent().addClass('d-none');
                                     $('#collapse-shipping-address .panel-body').html(html);
 
 									$('#collapse-shipping-address').parent().find('.panel-heading .panel-title').html('<a href="#collapse-shipping-address" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">{{ text_checkout_shipping_address }} <i class="fa fa-caret-down"></i></a>');
@@ -265,8 +270,6 @@ $(document).delegate('#button-register', 'click', function() {
                             });
 
 							$('#collapse-shipping-method .panel-body').html(html);
-
-							$('#collapse-shipping-method').parent().find('.panel-heading .panel-title').html('<a href="#collapse-shipping-method" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle">{{ text_checkout_shipping_method }} <i class="fa fa-caret-down"></i></a>');
 
    							$('a[href=\'#collapse-shipping-method\']').trigger('click');
 
@@ -433,7 +436,7 @@ $(document).delegate('#button-payment-address', 'click', function() {
 						error: function(xhr, ajaxOptions, thrownError) {
 							alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
 						}
-					});				
+					});
 				});
                 {% endif %}
             }
@@ -495,7 +498,7 @@ $(document).delegate('#button-shipping-address', 'click', function() {
 
 						$('#collapse-payment-method').parent().find('.panel-heading .panel-title').html('{{ text_checkout_payment_method }}');
 						$('#collapse-checkout-confirm').parent().find('.panel-heading .panel-title').html('{{ text_checkout_confirm }}');
-						
+
                         $.ajax({
                             url: 'index.php?route=checkout/shipping_address',
                             dataType: 'html',

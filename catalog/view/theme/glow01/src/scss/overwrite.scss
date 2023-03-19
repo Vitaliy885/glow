@@ -50,124 +50,144 @@
   }
 }
 
-#checkout-cart {
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-  }
-
-  @media (max-width: 991px) {
-    table {
-      border: 0;
-    }
-
-    .table-responsive {
+#checkout {
+  &-checkout {
+    #login-button {
+      background: transparent;
       border: none;
+      outline: none;
+      text-align: left;
+      color: #333;
     }
 
-    table thead {
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
+   /* .panel {
+      border: none;
 
-    table tr {
-      display: block;
-      margin-bottom: .625em;
-      border: 1px solid #ddd;
-
-      td:first-child {
-        border-top: 0;
+      &-heading {
+        display: none;
       }
-    }
-
-    table td {
-      display: block;
-      font-size: .8em;
-      text-align: right;
-      border: 0;
-      border-bottom: 1px solid #ddd;
-
-      &.td-qty {
-        height: 40.8px;
-      }
-
-      &.td-qty,
-      &.td-image {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-    }
-
-    table td::before {
-      content: attr(data-label);
-      float: left;
-      color: #222;
-      font-weight: 500;
-      font-family: 'Poppins', sans-serif;
-      font-size: 13px;
-      line-height: 18px;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-      vertical-align: middle;
-    }
-
-    table td:last-child {
-      border-bottom: 0;
-    }
+    }*/
   }
 
-  @media (max-width: 520px) {
+  &-cart {
     .buttons {
-      flex-direction: column-reverse;
-
-      a {
-        width: 100%;
-      }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
     }
-  }
 
-  .remove-item {
-    height: 30px;
-    padding: 0 10px;
-  }
+    @media (max-width: 991px) {
+      table {
+        border: 0;
+      }
 
-  .input {
-    &-group {
+      .table-responsive {
+        border: none;
+      }
 
-      &.group-btn {
-        display: flex;
-        gap: 10px;
+      table thead {
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
 
-        @media (max-width: 991px) {
-          max-width: 150px;
+      table tr {
+        display: block;
+        margin-bottom: .625em;
+        border: 1px solid #ddd;
+
+        td:first-child {
+          border-top: 0;
         }
       }
 
-      .mini {
-        &-cart {
-          &-btns {
-            display: flex;
+      table td {
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        border: 0;
+        border-bottom: 1px solid #ddd;
 
-            button[type=submit] {
-              height: 30px;
-              padding: 0 10px;
-            }
+        &.td-qty {
+          height: 40.8px;
+        }
 
-            input {
-              box-sizing: border-box;
+        &.td-qty,
+        &.td-image {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
 
-              &[name^=quantity] {
+      table td::before {
+        content: attr(data-label);
+        float: left;
+        color: #222;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+
+      table td:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .buttons {
+        flex-direction: column-reverse;
+
+        a {
+          width: 100%;
+        }
+      }
+    }
+
+    .remove-item {
+      height: 30px;
+      padding: 0 10px;
+    }
+
+    .input {
+      &-group {
+
+        &.group-btn {
+          display: flex;
+          gap: 10px;
+
+          @media (max-width: 991px) {
+            max-width: 150px;
+          }
+        }
+
+        .mini {
+          &-cart {
+            &-btns {
+              display: flex;
+
+              button[type=submit] {
                 height: 30px;
-                padding: 0;
-                background-color: #ffffff;
+                padding: 0 10px;
+              }
+
+              input {
+                box-sizing: border-box;
+
+                &[name^=quantity] {
+                  height: 30px;
+                  padding: 0;
+                  background-color: #ffffff;
+                }
               }
             }
           }
@@ -429,6 +449,10 @@
   &.d-none {
     display: none;
   }
+}
+
+.d-none {
+  display: none;
 }
 
 #footer {
