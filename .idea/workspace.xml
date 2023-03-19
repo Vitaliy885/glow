@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/order_list.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/order_list.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/confirm.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/confirm.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
-      <workItem from="1679004714356" duration="59743000" />
+      <workItem from="1679004714356" duration="61164000" />
     </task>
     <servers />
   </component>

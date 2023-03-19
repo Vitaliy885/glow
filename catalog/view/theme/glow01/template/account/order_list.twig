@@ -34,12 +34,12 @@
           <tbody>
            {% for order in orders %}
             <tr>
-              <td class="text-right">#{{ order.order_id }}</td>
-              <td class="text-left">{{ order.name }}</td>
-              <td class="text-right">{{ order.products }}</td>
-              <td class="text-left">{{ order.status }}</td>
-              <td class="text-right">{{ order.total }}</td>
-              <td class="text-left">{{ order.date_added }}</td>
+              <td data-label="{{ column_order_id }}" class="text-right">#{{ order.order_id }}</td>
+              <td data-label="{{ column_customer }}" class="text-left">{{ order.name }}</td>
+              <td data-label="{{ column_product }}" class="text-right">{{ order.products }}</td>
+              <td data-label="{{ column_status }}" class="text-left">{{ order.status }}</td>
+              <td data-label="{{ column_total }}" class="text-right">{{ order.total }}</td>
+              <td data-label="{{ column_date_added }}" class="text-left">{{ order.date_added }}</td>
               <td class="text-right"><a href="{{ order.view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
             </tr>
             {% endfor %}
