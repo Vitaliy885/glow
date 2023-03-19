@@ -50,6 +50,7 @@
   }
 }
 
+#checkout-checkout,
 #account-order {
   @media (max-width: 991px) {
     table {
@@ -115,7 +116,7 @@
     table td:last-child {
       border-bottom: 0;
     }
-  } 
+  }
 }
 
 #checkout {
@@ -126,72 +127,6 @@
       outline: none;
       text-align: left;
       color: #333;
-    }
-
-    @media (max-width: 991px) {
-      table {
-        border: 0;
-      }
-
-      .table-responsive {
-        border: none;
-      }
-
-      table thead {
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-      }
-
-      table tr {
-        display: block;
-        margin-bottom: .625em;
-        border: 1px solid #ddd;
-
-        td:first-child {
-          border-top: 0;
-        }
-      }
-
-      table td {
-        display: block;
-        font-size: .8em;
-        text-align: right;
-        border: 0;
-        border-bottom: 1px solid #ddd;
-
-        &.td-qty {
-          height: 40.8px;
-        }
-
-        &.td-qty,
-        &.td-image {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-      }
-
-      table td::before {
-        content: attr(data-label);
-        float: left;
-        color: #222;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 0.6px;
-        text-transform: uppercase;
-        vertical-align: middle;
-      }
-
-      table td:last-child {
-        border-bottom: 0;
-      }
     }
 
     .panel {
