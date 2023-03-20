@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/guest_shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/guest_shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/account/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/account/address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/checkout/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/checkout/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/register.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/footer.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/header.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,24 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;D:/OSPanel5.4.3/domains/opencart/catalog/view/theme/glow01/node_modules/gulp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/qlicks/bladzy-module-brands&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.buildTools.gulp.gulp_package_dir": "D:/OSPanel5.4.3/domains/opencart/catalog/view/theme/glow01/node_modules/gulp",
+    "last_opened_file_path": "D:/OSPanel5.4.3/domains/opencart/catalog/view/javascript/jquery/jquery-ui",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\softs\\PhpStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\view\javascript\jquery\jquery-ui" />
       <recent name="D:\OSPanel5.4.3\domains\opencart" />
       <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\language\uk-ua\extension\module" />
       <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\language\uk-ua\extension\payment" />
       <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\language\uk-ua\extension\recurring" />
-      <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\language\uk-ua\extension\shipping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OSPanel5.4.3\domains\opencart\catalog\view\theme\glow01\src" />
@@ -83,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
-      <workItem from="1679004714356" duration="61345000" />
+      <workItem from="1679004714356" duration="83864000" />
     </task>
     <servers />
   </component>
