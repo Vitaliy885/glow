@@ -310,7 +310,7 @@ class ControllerAffiliateRegister extends Controller {
 	}
 
 	protected function validate() {
-		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
+		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 128)) {
 			$this->error['firstname'] = $this->language->get('error_firstname');
 		}
 

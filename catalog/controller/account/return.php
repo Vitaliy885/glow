@@ -469,7 +469,7 @@ class ControllerAccountReturn extends Controller {
 			$this->error['order_id'] = $this->language->get('error_order_id');
 		}
 
-		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
+		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 128)) {
 			$this->error['firstname'] = $this->language->get('error_firstname');
 		}
 

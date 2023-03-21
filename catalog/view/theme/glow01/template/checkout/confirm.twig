@@ -14,14 +14,14 @@
     
     {% for product in products %}
     <tr>
-      <td class="text-left"><a href="{{ product.href }}">{{ product.name }}</a> {% for option in product.option %} <br />
+      <td data-label="{{ column_name }}" class="text-left"><a href="{{ product.href }}">{{ product.name }}</a> {% for option in product.option %} <br />
         &nbsp;<small> - {{ option.name }}: {{ option.value }}</small> {% endfor %}
         {% if product.recurring %} <br />
         <span class="label label-info">{{ text_recurring_item }}</span> <small>{{ product.recurring }}</small> {% endif %}</td>
-      <td class="text-left">{{ product.model }}</td>
-      <td class="text-right">{{ product.quantity }}</td>
-      <td class="text-right">{{ product.price }}</td>
-      <td class="text-right">{{ product.total }}</td>
+      <td data-label="{{ column_model }}" class="text-left">{{ product.model }}</td>
+      <td data-label="{{ column_quantity }}" class="text-right">{{ product.quantity }}</td>
+      <td data-label="{{ column_price }}" class="text-right">{{ product.price }}</td>
+      <td data-label="{{ column_total }}" class="text-right">{{ product.total }}</td>
     </tr>
     {% endfor %}
     {% for voucher in vouchers %}
