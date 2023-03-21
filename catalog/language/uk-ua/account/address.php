@@ -6,6 +6,7 @@ $_['heading_title'] = 'Мої Адреси';
 // Text
 $_['text_account'] = 'Особистий Кабінет';
 $_['text_address_book'] = 'Список адрес доставки';
+$_['text_address_edit']  = 'Редагувати адресу';
 $_['text_edit_address'] = 'Редагувати адресу';
 $_['text_add'] = 'Вашу адресу було успішно додано';
 $_['text_edit'] = 'Вашу адресу було успішно змінено';
@@ -16,7 +17,7 @@ $_['text_empty'] = 'Список адрес в записі, порожній.';
 $_['entry_firstname'] = 'Ім&#39;я, Прізвище';
 $_['entry_lastname'] = 'Прізвище';
 $_['entry_company'] = 'Компанія';
-$_['entry_address_1'] = 'Адреса 1';
+$_['entry_address_1'] = 'Відділення';
 $_['entry_address_2'] = 'Адреса 2';
 $_['entry_postcode'] = 'індекс';
 $_['entry_city'] = 'Місто';

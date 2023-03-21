@@ -23,7 +23,7 @@ $_['entry_postcode_required'] = 'Індекс обов&#39;язковий';
 $_['entry_status'] = 'Статус';
 
 // Help
-$_['help_address_format'] = 'Ім&#39;я = {firstname}<br />Прізвище = {lastname}<br />Компанія = {company}<br />Адреса 1 = {address_1}<br />Адреса 2 = {address_2}<br />Місто = {city}<br />Індекс = {postcode}<br />Регіон = {zone}<br />Код зони = {zone_code}<br />Країна = {country}';
+$_['help_address_format'] = 'Ім&#39;я = {firstname}<br />Прізвище = {lastname}<br />Компанія = {company}<br />Відділення = {address_1}<br />Адреса 2 = {address_2}<br />Місто = {city}<br />Індекс = {postcode}<br />Регіон = {zone}<br />Код зони = {zone_code}<br />Країна = {country}';
 
 // Error
 $_['error_permission'] = 'У Вас немає прав для зміни списку країн';
