@@ -7,7 +7,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $output,
-				'name'        => $args[0]['firstname'] . ' ' . $args[0]['lastname']
+				'name'        => $args[0]['firstname']
 			);
 
 			$this->model_account_activity->addActivity('register', $activity_data);
@@ -21,7 +21,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $this->customer->getId(),
-				'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+				'name'        => $this->customer->getFirstName()
 			);
 
 			$this->model_account_activity->addActivity('edit', $activity_data);
@@ -36,7 +36,7 @@ class ControllerEventActivity extends Controller {
 			if ($this->customer->isLogged()) {
 				$activity_data = array(
 					'customer_id' => $this->customer->getId(),
-					'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+					'name'        => $this->customer->getFirstName()
 				);
 	
 				$this->model_account_activity->addActivity('password', $activity_data);
@@ -46,7 +46,7 @@ class ControllerEventActivity extends Controller {
 				if ($customer_info) {
 					$activity_data = array(
 						'customer_id' => $customer_info['customer_id'],
-						'name'        => $customer_info['firstname'] . ' ' . $customer_info['lastname']
+						'name'        => $customer_info['firstname']
 					);
 	
 					$this->model_account_activity->addActivity('reset', $activity_data);
@@ -66,7 +66,7 @@ class ControllerEventActivity extends Controller {
 	
 				$activity_data = array(
 					'customer_id' => $customer_info['customer_id'],
-					'name'        => $customer_info['firstname'] . ' ' . $customer_info['lastname']
+					'name'        => $customer_info['firstname']
 				);
 	
 				$this->model_account_activity->addActivity('login', $activity_data);
@@ -86,7 +86,7 @@ class ControllerEventActivity extends Controller {
 
 				$activity_data = array(
 					'customer_id' => $customer_info['customer_id'],
-					'name'        => $customer_info['firstname'] . ' ' . $customer_info['lastname']
+					'name'        => $customer_info['firstname']
 				);
 
 				$this->model_account_activity->addActivity('forgotten', $activity_data);
@@ -106,7 +106,7 @@ class ControllerEventActivity extends Controller {
 	
 				$activity_data = array(
 					'customer_id' => $customer_info['customer_id'],
-					'name'        => $customer_info['firstname'] . ' ' . $customer_info['lastname'],
+					'name'        => $customer_info['firstname'],
 					'order_id'    => $args[3]
 				);
 	
@@ -122,7 +122,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $output,
-				'name'        => $args[1]['firstname'] . ' ' . $args[1]['lastname']
+				'name'        => $args[1]['firstname']
 			);
 
 			$this->model_account_activity->addActivity('affiliate_add', $activity_data);
@@ -136,7 +136,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $this->customer->getId(),
-				'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+				'name'        => $this->customer->getFirstName()
 			);
 
 			$this->model_account_activity->addActivity('affiliate_edit', $activity_data);
@@ -151,12 +151,12 @@ class ControllerEventActivity extends Controller {
 			if($this->customer->getId()) {
 				$activity_data = array(
 					'customer_id' => $this->customer->getId(),
-					'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+					'name'        => $this->customer->getFirstName()
 				);
 			} else {
 				$activity_data = array(
 					'customer_id' => $args[0],
-					'name'        => $args[1]['firstname'] . ' ' . $args[1]['lastname']
+					'name'        => $args[1]['firstname']
 				);
 			}
 
@@ -171,7 +171,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $this->customer->getId(),
-				'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+				'name'        => $this->customer->getFirstName()
 			);
 
 			$this->model_account_activity->addActivity('address_edit', $activity_data);
@@ -185,7 +185,7 @@ class ControllerEventActivity extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $this->customer->getId(),
-				'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+				'name'        => $this->customer->getFirstName()
 			);
 			
 			$this->model_account_activity->addActivity('address_delete', $activity_data);
@@ -200,14 +200,14 @@ class ControllerEventActivity extends Controller {
 			if ($this->customer->isLogged()) {
 				$activity_data = array(
 					'customer_id' => $this->customer->getId(),
-					'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName(),
+					'name'        => $this->customer->getFirstName(),
 					'return_id'   => $output
 				);
 
 				$this->model_account_activity->addActivity('return_account', $activity_data);
 			} else {
 				$activity_data = array(
-					'name'      => $args[0]['firstname'] . ' ' . $args[0]['lastname'],
+					'name'      => $args[0]['firstname'],
 					'return_id' => $output
 				);
 
@@ -230,14 +230,14 @@ class ControllerEventActivity extends Controller {
 				if ($order_info['customer_id']) {
 					$activity_data = array(
 						'customer_id' => $order_info['customer_id'],
-						'name'        => $order_info['firstname'] . ' ' . $order_info['lastname'],
+						'name'        => $order_info['firstname'],
 						'order_id'    => $args[0]
 					);
 	
 					$this->model_account_activity->addActivity('order_account', $activity_data);
 				} else {
 					$activity_data = array(
-						'name'     => $order_info['firstname'] . ' ' . $order_info['lastname'],
+						'name'     => $order_info['firstname'],
 						'order_id' => $args[0]
 					);
 	
