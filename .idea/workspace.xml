@@ -3,34 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/customer/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/customer/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/marketing/affiliate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/marketing/affiliate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/sale/return.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/sale/return.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/user/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/user/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/account/return.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/account/return.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/affiliate/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/event/activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/event/activity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/return.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/return.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/affiliate/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/affiliate/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/api/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/api/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/api/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/api/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/api/shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/api/shipping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/checkout/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/checkout/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/mail/affiliate.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/mail/affiliate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/mail/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/mail/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/account/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/account/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/account/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/account/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/checkout/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/checkout/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/payment_address.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/payment_address.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/register.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_address.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_address.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
-      <workItem from="1679004714356" duration="98350000" />
+      <workItem from="1679004714356" duration="104270000" />
     </task>
     <servers />
   </component>

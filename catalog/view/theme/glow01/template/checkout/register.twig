@@ -481,7 +481,8 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $('#input-payment-city').keyup(function () {
-             $.ajax({
+            if($('#input-payment-city').val().length > 1) {
+                $.ajax({
                     type: 'POST',
                     dataType: 'json',
                     url: 'https://api.novaposhta.ua/v2.0/json/',
@@ -552,6 +553,9 @@
                         $('#input-payment-address-1').removeAttr('disabled');
                     }
                 });
+            } else {
+                $('#input-payment-address-1').attr('disabled', 'disabled');
+            }
         });
     });
 
