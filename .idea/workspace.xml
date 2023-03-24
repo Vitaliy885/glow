@@ -3,32 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/customer/customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/customer/customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/extension/payment/pp_express_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/extension/payment/pp_express_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/localisation/country.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/localisation/country.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/marketing/affiliate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/marketing/affiliate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/uk-ua/sale/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/uk-ua/sale/order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/account/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/account/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/account/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/account/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/account/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/forgotten.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/forgotten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/api/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/api/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/api/shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/api/shipping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/checkout/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/checkout/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/extension/shipping/flat.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/extension/shipping/flat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/extension/shipping/flat.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/flat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/paypal_smart_button/confirm.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/paypal_smart_button/confirm.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/address_form.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/address_form.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/edit.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/edit.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/register.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/register.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/checkout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/checkout.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/payment_address.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/payment_address.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_address.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_address.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_method.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/checkout/shipping_method.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/extension/module/paypal_smart_button/confirm.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/extension/module/paypal_smart_button/confirm.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/cart.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/common/cart.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
-      <workItem from="1679004714356" duration="110878000" />
+      <workItem from="1679004714356" duration="116959000" />
     </task>
     <servers />
   </component>

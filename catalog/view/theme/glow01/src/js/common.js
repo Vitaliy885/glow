@@ -98,5 +98,10 @@
             });
         }
 
+        $('#cart').on('click', function (e) {
+            $(this).toggleClass('open');
+            $('.cart-dropdown.dropdown-menu').toggleClass('open');
+        });
+
     });
 })();
