@@ -11,6 +11,7 @@
     {% else %}
     <input type="radio" name="payment_method" value="{{ payment_method.code }}" />
     {% endif %}
+    <span class="radio-pseudo"></span>
     {{ payment_method.title }}
     {% if payment_method.terms %}
     ({{ payment_method.terms }})
@@ -25,8 +26,10 @@
 {% if text_agree %}
 <div class="buttons">
   <div class="pull-right">{{ text_agree }}
-    <input type="checkbox" checked="checked" name="agree" value="1" />
-    &nbsp;
+    <label>
+      <input type="checkbox" checked="checked" name="agree" value="1" />
+      &nbsp;  <span class="checkbox-pseudo"></span>
+    </label>
     <input type="button" value="{{ button_continue }}" id="button-payment-method" data-loading-text="{{ text_loading }}" class="btn btn-primary" />
   </div>
 </div>

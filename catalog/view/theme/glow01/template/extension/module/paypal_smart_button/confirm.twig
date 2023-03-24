@@ -121,6 +121,7 @@
 								{% else %}
 								<input type="radio" name="shipping_method" value="{{ quote['code'] }}" id="{{ quote['code'] }}" />
 								{% endif %}
+								<span class="radio-pseudo"></span>
 								{{ quote['title'] }} {{ quote['text'] }}
 							</label>
 						</div>
@@ -144,6 +145,7 @@
 					<div class="radio">
 						<label>
 							<input type="radio" name="payment_method" value="{{ payment_method['code'] }}" checked="checked" />
+							<span class="radio-pseudo"></span>
 							{{ payment_method['title'] }}
 						</label>
 					</div>

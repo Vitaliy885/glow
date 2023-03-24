@@ -4,6 +4,7 @@
   <div class="radio">
     <label>
       <input type="radio" name="shipping_address" value="existing" checked="checked" />
+      <span class="radio-pseudo"></span>
       {{ text_address_existing }}</label>
   </div>
   <div id="shipping-existing">
@@ -20,6 +21,7 @@
   <div class="radio">
     <label>
       <input type="radio" name="shipping_address" value="new" />
+      <span class="radio-pseudo"></span>
       {{ text_address_new }}</label>
   </div>
   {% endif %}
@@ -81,6 +83,7 @@
           <div class="radio">
             <label>
               <input type="radio" name="custom_field[{{ custom_field.location }}][{{ custom_field.custom_field_id }}]" value="{{ custom_field_value.custom_field_value_id }}" />
+              <span class="radio-pseudo"></span>
               {{ custom_field_value.name }}</label>
           </div>
           {% endfor %}
@@ -97,6 +100,7 @@
           <div class="checkbox">
             <label>
               <input type="checkbox" name="custom_field[{{ custom_field.location }}][{{ custom_field.custom_field_id }}][]" value="{{ custom_field_value.custom_field_value_id }}" />
+              <span class="checkbox-pseudo"></span>
               {{ custom_field_value.name }}</label>
           </div>
           {% endfor %}

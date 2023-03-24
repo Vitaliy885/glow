@@ -23,7 +23,7 @@ $_['text_forgotten'] = 'Забули пароль?';
 $_['text_your_details'] = 'Особисті дані';
 $_['text_your_address'] = 'Адреса';
 $_['text_your_password'] = 'Пароль';
-$_['text_agree'] = 'Я прочитав <a href="%s" class="agree"><b>%s</b></a> і згоден з умовами';
+$_['text_agree'] = 'Я прочитав <a href="%s" class="agree"><b>Правила ти Умови</b></a> і згоден з умовами';
 $_['text_address_new'] = 'Я хочу використовувати нову адресу';
 $_['text_address_existing'] = 'Я хочу використовувати існуючий адресу';
 $_['text_shipping_method'] = 'Оберіть зручний спосіб доставки для даного замовлення';

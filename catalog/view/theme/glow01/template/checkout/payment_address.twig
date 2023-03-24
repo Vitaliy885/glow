@@ -4,6 +4,7 @@
   <div class="radio">
     <label>
       <input type="radio" name="payment_address" value="existing" checked="checked" />
+      <span class="radio-pseudo"></span>
       {{ text_address_existing }}</label>
   </div>
   <div id="payment-existing">
@@ -20,6 +21,7 @@
   <div class="radio">
     <label>
       <input type="radio" name="payment_address" value="new" />
+      <span class="radio-pseudo"></span>
       {{ text_address_new }}</label>
   </div>
   {% endif %}
