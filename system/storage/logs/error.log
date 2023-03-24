@@ -766,3 +766,4 @@
 2023-03-21 20:11:42 - PHP Notice:  Undefined index: lastname in D:\OSPanel5.4.3\domains\opencart\catalog\controller\account\address.php on line 312
 2023-03-21 20:11:49 - PHP Notice:  Undefined index: lastname in D:\OSPanel5.4.3\domains\opencart\catalog\controller\account\address.php on line 312
 2023-03-21 20:25:23 - PHP Notice:  Undefined index: zone_id in D:\OSPanel5.4.3\domains\opencart\catalog\model\account\address.php on line 16
+2023-03-24 20:24:03 - PHP Warning:  sprintf(): Too few arguments in D:\OSPanel5.4.3\domains\opencart\catalog\controller\product\category.php on line 104

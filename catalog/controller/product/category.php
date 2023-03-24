@@ -102,6 +102,7 @@ class ControllerProductCategory extends Controller {
 			$data['subcategory_type'] = $themeoption['subcategory_type'];
 			$data['category_page_counter'] = (isset($themeoption['category_counter']) && $themeoption['category_counter'] == 1) ? $themeoption['category_counter'] : 0;	
 			$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
+			$data['text_compare_mobile'] = sprintf($this->language->get('text_compare_mobile'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 
 			// Set the last category breadcrumb
 			$data['breadcrumbs'][] = array(

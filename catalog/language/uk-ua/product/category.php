@@ -11,6 +11,7 @@ $_['text_points'] = 'Бонусні бали:';
 $_['text_price'] = 'Ціна:';
 $_['text_tax'] = 'Без ПДВ:';
 $_['text_compare'] = 'Порівняння товарів (%s)';
+$_['text_compare_mobile'] = '(%s)';
 $_['text_sort'] = 'Сортувати:';
 $_['text_default'] = 'За замовчуванням';
 $_['text_name_asc'] = 'Назва (А - Я)';
