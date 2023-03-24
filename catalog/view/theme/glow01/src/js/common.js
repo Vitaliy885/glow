@@ -63,18 +63,7 @@
         var thumbnails = document.querySelector('.image_show'),
             zoomSticky = document.querySelector('.zoom-sticky'),
             zoom = document.querySelector('.zoom'),
-            carousel = document.querySelector('.carousel-container'),
-            prealoader = document.querySelector('.preloader');
-
-        window.loader = {
-            show: function () {
-                prealoader.classList.remove('d-none');
-            },
-
-            close: function () {
-                prealoader.classList.add('d-none');
-            }
-        };
+            carousel = document.querySelector('.carousel-container');
 
         if (thumbnails) {
             thumbnails.querySelectorAll('.thumbnail').forEach(function (item) {
