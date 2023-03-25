@@ -13,7 +13,7 @@
                   <i class="fa fa-angle-up remove"></i>
                 </span>
               </div>
-              <div id="contact-info-container" class="collapse footer-dropdown">
+              {#<div id="contact-info-container" class="collapse footer-dropdown">
                 <div class="block-contact"> 
                   <div class="row">
                    {% if storetelephone %}
@@ -45,6 +45,18 @@
                     {% endif %}
                   </div>
                 </div>
+              </div>#}
+              <div class="row">
+                {% if informations %}
+                  <div class="col-sm-12">
+                    <h5>{{ text_information }}</h5>
+                    <ul class="list-unstyled">
+                      {% for information in informations %}
+                        <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
               </div>
             </div>  
           </div>
