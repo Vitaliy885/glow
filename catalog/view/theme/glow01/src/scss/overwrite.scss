@@ -510,6 +510,24 @@
   display: none;
 }
 
+#common-home {
+  .ishislider {
+    .owl {
+      &-carousel {
+        .owl {
+          &-item {
+            a.slideshow__link {
+              .container {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 #footer {
   .block {
     &-contact {
