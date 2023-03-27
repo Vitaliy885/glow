@@ -343,7 +343,7 @@
         }
 
         &::before {
-          content: 'Ваша корзина';
+          content: 'Корзина';
           position: absolute;
           left: 15px;
           top: 15px;
@@ -352,6 +352,26 @@
         }
       }
     }
+  }
+}
+
+.blogstoryblock {
+  .smartblog_block {
+    @media (min-width: 1200px) {
+      display: flex;
+      align-items: stretch;
+
+      .blog-content {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.smartblog_block {
+  .blog-content {
+
   }
 }
 

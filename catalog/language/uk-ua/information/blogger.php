@@ -1,38 +1,38 @@
 <?php
 // Heading
-$_['heading_title']       = 'Blogs';
+$_['heading_title']       = 'Новини';
 
 // Text
-$_['text_blogs']          = 'Blogs';
-$_['text_success']        = 'Comment Added successfully!';
-$_['text_approval']       = 'Your comment is awaiting approval! It will be available after administrator\'s approval';
-$_['text_no_blogs']       = 'No blogs added!';
-$_['text_read_more']      = 'Read more';
-$_['text_date_added']     = 'Date Added';
-$_['text_login_required'] = 'You must <a href="%s">login</a> to add a comment. If you do not have an account, you may <a href="%s">register</a> for one. Registration is free!';
-$_['text_your_comments']  = 'Your Comments';
-$_['text_leave_comment']  = 'Leave Comment';
-$_['text_error']       	  = 'Blog not found!';
+$_['text_blogs']          = 'Новини';
+$_['text_success']        = 'Коментар успішно додано!';
+$_['text_approval']       = 'Ваш коментар очікує на підтвердження! Він буде доступний після схвалення адміністратора';
+$_['text_no_blogs']       = 'Блоги не додано!';
+$_['text_read_more']      = 'Читати далі';
+$_['text_date_added']     = 'Дата додавання';
+$_['text_login_required'] = 'Ви повинні <a href="%s">авторизуватись</a> для додавання коментарів. Якщо Ви ще не маєте акаунту, Ви можете <a href="%s">зареєструватись</a>. Реєстрація безкоштовна!';
+$_['text_your_comments']  = 'Ваші коментарі';
+$_['text_leave_comment']  = 'Залишити коментар';
+$_['text_error']       	  = 'Блог не знайдено!';
 
 // Entry
-$_['entry_author']        = 'Author';
-$_['entry_email']         = 'E-Mail Address';
-$_['entry_comment']       = 'Comment';
+$_['entry_author']        = 'Автор';
+$_['entry_email']         = 'E-Mail';
+$_['entry_comment']       = 'Коментар';
 
 // Column
-$_['column_title']        = 'Blog Title';
+$_['column_title']        = 'Назва новини';
 
 // Button
-$_['button_comment_add']  = 'Add Comment';
-$_['button_list_blogs']   = 'List All Blogs';
-$_['button_view']         = 'View Blog';
+$_['button_comment_add']  = 'Додати коментар';
+$_['button_list_blogs']   = 'Список усіх новин';
+$_['button_view']         = 'Переглянути новини';
 
 // Email
-$_['email_subject']       = 'Comment: %s';
-$_['email_content']       = 'A comment has been add for the blog  "%s".';
+$_['email_subject']       = 'Коментар: %s';
+$_['email_content']       = 'Додано коментар до новини "%s".';
 
 // Error
-$_['error_author']        = 'Author name must be between 1 and 32 characters!';
-$_['error_email']         = 'E-Mail Address is valid!';
-$_['error_comment']       = 'Comment must be between 10 and 3000 characters!';
+$_['error_author']        = 'Ім`я автора повинне містити від 1 до 32 символів!';
+$_['error_email']         = 'E-Mail Адреса пошти коректна!';
+$_['error_comment']       = 'Коментар повинен містити від 10 до 3000 символів!';
 
