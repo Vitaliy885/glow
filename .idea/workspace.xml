@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog/language/uk-ua/extension/module/newslettersubscribe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/account/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/account/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/newsletter.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/account/newsletter.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
       <workItem from="1679004714356" duration="140767000" />
-      <workItem from="1679859847937" duration="7946000" />
+      <workItem from="1679859847937" duration="8377000" />
     </task>
     <servers />
   </component>
