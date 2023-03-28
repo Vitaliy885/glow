@@ -1,7 +1,7 @@
 <?php
 
 //Fields
-$_['entry_email'] 		 = 'Введіть свій Email';
+$_['entry_email'] 		 = 'Введіть Email';
 $_['entry_name'] 		 = 'Ім\'я';
 
 //Buttons
