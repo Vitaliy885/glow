@@ -3,72 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b03352f8-4359-4023-a06e-0527d3b37700" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/extension/module/ishiproductsblock.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/extension/module/ishiproductsblock.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/uk-ua/extension/module/newslettersubscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/uk-ua/extension/module/newslettersubscribe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/css/overwrite.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/10014-1-26_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/10014-1-26_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/10015-1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/10015-1_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/11111-1-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/11111-1-.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/1122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/1122.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/12056-9_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/12056-9_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/16506-27_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/16506-27_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/16555-26_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/16555-26_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/18002-33_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/18002-33_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/2078-19_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/2078-19_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/21001-41_1--1--1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/215011-33_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/215011-33_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/2196-32_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/2196-32_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/22558-34_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/22558-34_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/3406-9_5-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/3406-9_5-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/5310-32_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/5310-32_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/5530-23_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/5530-23_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/7490-28_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/7490-28_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/ban-2-1-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/ban-2-1-.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/collection-spring1.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/collection-spring1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/collection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/dizajn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/dizajn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/osin2022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/osin2022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/vilna...--1-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/vilna....png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/vilna....png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/vilna2.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/dist/images/vilna2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/10014-1-26_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/10014-1-26_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/10015-1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/10015-1_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/11111-1-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/11111-1-.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/1122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/1122.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/12056-9_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/12056-9_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/16506-27_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/16506-27_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/16555-26_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/16555-26_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/18002-33_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/18002-33_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/2078-19_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/2078-19_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/21001-41_1--1--1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/215011-33_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/215011-33_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/2196-32_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/2196-32_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/22558-34_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/22558-34_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/3406-9_5-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/3406-9_5-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/5310-32_1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/5310-32_1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/5530-23_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/5530-23_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/7490-28_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/7490-28_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/ban-2-1-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/ban-2-1-.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/collection-spring1.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/collection-spring1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/collection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/dizajn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/dizajn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/osin2022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/osin2022.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/vilna...--1-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/vilna....png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/vilna....png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/vilna2.png" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/images/vilna2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/src/scss/overwrite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/glow01/template/extension/module/ishitestimonialsblock.twig" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/glow01/template/extension/module/ishitestimonialsblock.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/Gallery/Gallery-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/testimonial/Testimonial-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/testimonial/Testimonial-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/testimonial/Testimonial-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cache/catalog/Logo-160x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/Logo-160x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/Service/Services-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/Service/Services-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/Service/Services-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/catalog/Service/Services-4.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +92,7 @@
       <updated>1678649607728</updated>
       <workItem from="1678649609864" duration="37350000" />
       <workItem from="1679004714356" duration="140767000" />
-      <workItem from="1679859847937" duration="12001000" />
+      <workItem from="1679859847937" duration="13491000" />
     </task>
     <servers />
   </component>
